@@ -1,0 +1,35 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="janitri-automation" />
+          <option value="janitri-automation" />
+          <option value="janitri-automation" />
+          <option value="janitri-automation" />
+          <option value="janitri-automation" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="org.seleniumhq.selenium:selenium-ie-driver:4.14.0" />
+          <option value="org.apache.commons:commons-lang3:3.13.0" />
+          <option value="commons-io:commons-io:2.6" />
+          <option value="com.google.guava:guava:19.0" />
+          <option value="org.bouncycastle:bcprov-jdk18on:1.75" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
